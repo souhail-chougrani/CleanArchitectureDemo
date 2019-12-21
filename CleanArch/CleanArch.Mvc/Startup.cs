@@ -20,7 +20,6 @@ namespace CleanArch.Mvc
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            Console.WriteLine("Test");
         }
 
         public IConfiguration Configuration { get; }
